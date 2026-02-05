@@ -1,0 +1,6 @@
+services:
+  tic-tac-toe:
+    build: .
+    ports:
+      - "3000:80"
+    container_name: tic-tac-toe-appc
